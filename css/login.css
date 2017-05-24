@@ -1,0 +1,152 @@
+/***********************************************************************
+*setingan dari style login.css yang digunakan form Login administrator**
+/**********************************************************************/
+
+/***********************************************************************
+*settingan tampilan pada tag <body></body>                            **
+***********************************************************************/
+body {
+background-image:url(../images/bgr.jpg);
+background-size:100% 800px;
+background-repeat:no-repeat;
+}
+
+/***********************************************************************
+*settingan tampilan pada tag link <a></a>                             **
+***********************************************************************/
+a:link {text-decoration:none;} /* unvisited link */
+a:visited {text-decoration:none;} /* visited link */
+a:hover {text-decoration:none;} /* mouse over link */
+a:active {text-decoration:none;} /* selected link */
+
+/***********************************************************************
+*import font baru                                                     **
+***********************************************************************/
+@font-face { /* membuat variable font baru */
+font-family: ravie; /* nama variabel dari font */
+src: url(../font/ravie.ttf) /* alamat font */
+}
+
+@font-face { /* membuat variable font baru */
+font-family: forte; /* nama variabel dari font */
+src: url(../font/forte.ttf); /* alamat font */
+}
+
+/***********************************************************************
+*setingan buat bayangan pada tag <form></form>                        **
+***********************************************************************/
+form {
+width: 500px;
+margin: 150px auto 0px;
+border-radius: 25px 25px 25px 25px;
+box-shadow: 0px 0px 10px #000000;
+}
+
+/***********************************************************************
+*setingan untuk tag yang ber id="judul"                               **
+***********************************************************************/
+#judul {
+font-family: forte;
+height: 80;
+text-align: center;
+font-weight: bold;
+background: rgb(152, 191, 33);
+border: 1px solid black;
+border-radius:25px 25px 0px 0px;
+}
+
+/***********************************************************************
+*setingan untuk tag yang ber id="isi"                                 **
+***********************************************************************/
+#isi {
+margin: 0px auto;
+border: 0px solid black;
+padding: 5px;
+background: rgba(192, 192, 192, 0.4);
+border: 1px solid black;
+}
+
+/***********************************************************************
+*setingan untuk tag yang ber id="kaki"                                **
+***********************************************************************/
+#kaki {
+margin: 0px auto;
+height: 20px;
+padding-top: 5px;
+font-size: 12px;
+font-weight: bold;
+font-family: "Courier New", Courier, Monospace;
+text-align: center;
+background: rgb(152, 191, 33);
+border: 1px solid black;
+border-radius: 0px 0px 25px 25px;
+}
+
+/***********************************************************************
+*setingan untuk tag <table></table>                                   **
+***********************************************************************/
+table {
+font-family: ravie;
+font-size: 15px;
+padding: 0px;
+width: 500px;
+height: 100px;
+margin: 0 auto;
+color: black;
+}
+
+/***********************************************************************
+*setingan untuk tag <tr></tr> atau "baris" pada tabel                 **
+***********************************************************************/
+tr {
+width: 500px;
+}
+
+/***********************************************************************
+*setingan untuk tag <td></td> atau "kolom" pada tabel                 **
+***********************************************************************/
+td {
+border: 0px solid green;
+width: absolute;
+text-align: left;
+}
+
+/***********************************************************************
+*setingan untuk tag <input>                                           **
+***********************************************************************/
+input {
+margin-right: 5px;
+background: #C0C0C0 ;
+border-radius: 10px 10px 10px 10px;
+width: 250px;
+}
+
+input:hover { /* mouse over */
+text-decoration:none;
+box-shadow: 0px 0px 10px #000000;
+}
+
+/***********************************************************************
+*setingan untuk tag yang ber id="button"                              **
+***********************************************************************/
+#button {
+font-family: ravie;
+margin-right: 0px;
+background: #404040;
+height: 25px;
+border-radius: 10px 10px 10px 10px;
+color: #C0C0C0;
+}
+
+/***********************************************************************
+*setingan untuk tag yang ber id="buttonback"                          **
+***********************************************************************/
+#buttonback {
+font-family: ravie;
+margin-right: 0px;
+background: rgba(0, 0, 0, 0.3);
+width: 100%;
+height: 25px;
+border-radius: 10px 10px 10px 10px;
+color: white;
+}

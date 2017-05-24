@@ -1,0 +1,164 @@
+/***********************************************************************
+*setingan untuk tag yang ber id="judul"                               **
+***********************************************************************/
+#judul {
+font-family: forte;
+height: 80;
+text-align: center;
+font-weight: bold;
+background: rgb(152, 191, 33);
+border: 1px solid black;
+border-radius:25px 25px 0px 0px;
+}
+
+/***********************************************************************
+*setingan untuk tag yang ber id="kaki"                                **
+***********************************************************************/
+#kaki {
+margin: 0px auto;
+height: 20px;
+padding-top: 5px;
+font-size: 12px;
+font-weight: bold;
+font-family: "Courier New", Courier, Monospace;
+text-align: center;
+background: rgb(152, 191, 33);
+border: 1px solid black;
+border-radius: 0px 0px 25px 25px;
+}
+
+
+body {
+background-image:url(../images/bgr.jpg);
+background-size:100% 800px;
+background-repeat:no-repeat;
+}
+
+a:link {color:#000000;text-decoration:none;}
+a:visited {color:#000000;text-decoration:none;}
+a:hover {color:#000000;text-decoration:none;}
+a:active {color:#000000;text-decoration:none;}
+
+table {
+border-collapse:collapse;
+}
+
+#form {
+box-shadow: 10px 10px 15px #000000;
+border-radius: 0px 25px 25px 25px;
+}
+
+#menubar {
+margin-top: 1px;
+padding: 2px;
+width:125px;
+height: 20px;
+border: 2px solid rgba(0, 0, 0, 0.3);
+background-color: grey;
+border-radius: 10px 0px 0px 10px;
+}
+
+#menubar:hover {
+box-shadow: 0px 0px 15px #000000;
+padding: 2px;
+width:125px;
+height: 20px;
+text-decoration:none;
+background-color: #c0c0c0;
+border-radius: 10px 0px 0px 10px;
+}
+
+#menubar:active {
+box-shadow: 0px 0px 3px #000000;
+padding: 2px;
+width:125px;
+height: 20px;
+text-decoration:none;
+background-color: grey;
+border-radius: 10px 0px 0px 10px;
+}
+
+a.kt:link {
+box-shadow: 2px 2px 5px #000000;
+vertical-align: bottom;
+padding: 2px;
+width:125px;
+height: 20px;
+text-decoration:none;
+background-color: grey;
+border-radius: 10px 10px 10px 10px;
+}
+
+a.kt:hover {
+box-shadow: 0px 0px 3px #000000;
+vertical-align: bottom;
+padding: 2px;
+width:125px;
+height: 20px;
+text-decoration:none;
+background-color: #c0c0c0;
+border-radius: 10px 10px 10px 10px;
+}
+
+#utama {
+border: 2px solid rgba(0, 0, 0, 0.3);
+margin: 0 auto;
+border: 0px solid black;
+padding: 5px;
+background: rgba(255,255,255,0.3);
+border: 1px solid black;
+}
+
+#kanan {
+background-color: #484848;
+width: 150px;
+vertical-align: top;
+padding-bottom:10px;
+padding-top: 10px;
+padding-left: 15px;
+padding-right: 0px;
+border-radius: 10px 0px 0px 10px;
+}
+
+#isi_menu {
+vertical-align: top;
+padding-top: 10px;
+padding-right: 15px;
+padding-left: 15px;
+padding-bottom: 10px;
+border: 0px;
+width: 90%;
+background: rgba(255,255,255,0.4);
+border-radius: 0px 10px 10px 0px;
+}
+
+#isi {
+background-color: white;
+}
+
+#header {
+color: grey;
+font-family: forte;
+height: 80;
+/**margin: 0px auto 0px;**/
+text-align: center;
+font-weight: bold;
+background: #484848;
+border: 1px solid black;
+border-radius:25px 25px 0px 0px;
+}
+
+#footer {
+/**width: 500px;**/
+color: grey;
+margin: 0px auto;
+height: 20px;
+padding-top: 5px;
+font-size: 12px;
+font-weight: bold;
+font-family: "Courier New", Courier, Monospace;
+text-align: center;
+background: #484848;
+border: 1px solid black;
+border-radius: 0px 0px 25px 25px;
+}

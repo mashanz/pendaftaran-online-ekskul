@@ -1,0 +1,134 @@
+/***********************************************************************
+*import font baru                                                     **
+***********************************************************************/
+@font-face { /* membuat variable font baru */
+font-family: ravie; /* nama variabel dari font */
+src: url(../font/ravie.ttf) /* alamat font */
+}
+
+#myform label.error {
+  background:url("../images/unchecked.gif") no-repeat 0px 0px;
+  padding-left: 15px;
+  font-weight: bold;
+  color: #EA5200;
+  margin-left:-25px;
+  background-position:left center;
+}
+
+#myform label.checked {
+  background:url("../images/checked.gif") no-repeat 0px 0px;
+  margin-left:25px;
+  background-position:left center;
+}
+
+/* simple css-based tooltip */
+.tooltip {
+	margin-left:20px;
+    background-color:#000;
+    border:1px solid #fff;
+    padding:10px 7px;
+    width:250px;
+    display:none;
+    color:#fff;
+    text-align:left;
+    font-size:12px;
+ 
+    /* outline radius for mozilla/firefox only */
+    -moz-box-shadow:0px 0px 20px #000;
+    -webkit-box-shadow:0px 0px 20px #000;
+}
+/***********************************************************************
+*setingan untuk tag <input>                                           **
+***********************************************************************/
+#in {
+padding-left:10px;
+border:none;
+margin-right: 5px;
+background: #C0C0C0 ;
+border-radius: 10px 10px 10px 10px;
+width: 250px
+}
+
+input:hover { /* mouse over */
+text-decoration:none;
+box-shadow: 0px 0px 10px #000000;
+}
+
+#in:hover { /* mouse over */
+border:none;
+text-decoration:none;
+box-shadow: 0px 0px 10px #000000;
+}
+
+/***********************************************************************
+*setingan untuk tag yang ber id="button"                              **
+***********************************************************************/
+#button {
+font-family: ravie;
+margin-right: 0px;
+background: #404040;
+width: 45%;
+height: 25px;
+border-radius: 10px 10px 10px 10px;
+color: #C0C0C0;
+}
+/***********************************************************************
+*setingan untuk tag yang ber id="buttonback"                          **
+***********************************************************************/
+#buttonback {
+font-family: ravie;
+margin-right: 0px;
+background: rgba(0, 0, 0, 0.3);
+width: 45%;
+height: 25px;
+border-radius: 10px 10px 10px 10px;
+color: white;
+}
+
+#tarea{padding-left:10px; resize:none; width:300px; height:60px; }
+
+#q{
+font-family: ravie;
+text-align:center;
+background:black;
+color:white;
+font-size:15px;
+font-weight:bold;
+
+}
+
+#isi1{
+font-weight:bold;
+width:600px;
+/* Internet Explorer 10 */
+display:-ms-flexbox;
+-ms-flex-pack:center;
+-ms-flex-align:center;
+
+/* Firefox */
+display:-moz-box;
+-moz-box-pack:center;
+-moz-box-align:center;
+
+/* Safari, Opera, and Chrome */
+display:-webkit-box;
+-webkit-box-pack:center;
+-webkit-box-align:center;
+
+/* W3C */
+display:box;
+box-pack:center;
+box-align:center;
+*background:grey;
+
+}
+
+#in{
+width:300px;
+}
+
+form{
+width:600px;
+}
+
+#table1{width:600px;padding:10px 10px;}

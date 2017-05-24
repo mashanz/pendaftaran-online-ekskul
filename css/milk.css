@@ -1,0 +1,145 @@
+/***********************************************************************
+*import font baru                                                     **
+***********************************************************************/
+@font-face { /* membuat variable font baru */
+font-family: ravie; /* nama variabel dari font */
+src: url(../font/ravie.ttf) /* alamat font */
+}
+/***********************************************************************
+*seeting form                                                         **
+***********************************************************************/
+#signupform{
+width:500px;
+}
+/***********************************************************************
+*setingan untuk tag yang ber id="signupsubmit"                        **
+***********************************************************************/
+#signupsubmit {
+font-family: ravie;
+text-align:center;
+background: #404040;
+width: 100px;
+height: 25px;
+box-shadow: 0px 0px 2px #000000;
+border-radius: 10px 10px 10px 10px;
+color: #C0C0C0;
+border:2px solid gray;
+}
+#signupsubmit:active {
+font-family: ravie;
+text-align:center;
+background: rgba(0, 0, 0, 0.3);
+width: 100px;
+height: 25px;
+border-radius: 10px 10px 10px 10px;
+box-shadow: 0px 0px 5px #000000;
+color: black;
+border:2px solid gray;
+}
+#signupsubmit:hover {
+box-shadow: 0px 0px 10px #000000;
+}
+/***********************************************************************
+*setingan untuk tag yang ber id="buttonback"                          **
+***********************************************************************/
+#buttonback {
+font-family: ravie;
+text-align:center;
+background: rgba(0, 0, 0, 0.3);
+width: 100px;
+height: 25px;
+border:2px solid gray;
+box-shadow: 0px 0px 2px #000000;
+border-radius: 10px 10px 10px 10px;
+color: white;
+}
+#buttonback:active {
+font-family: ravie;
+text-align:center;
+background: rgba(0, 0, 0, 0.1);
+width: 100px;
+height: 25px;
+box-shadow: 0px 0px 5px #000000;
+border:2px solid gray;
+border-radius: 10px 10px 10px 10px;
+color: black;
+}
+#buttonback:hover {
+box-shadow: 0px 0px 10px #000000;
+}
+/***********************************************************************
+*setingan untuk tag <input>                                           **
+***********************************************************************/
+input{
+padding-left:10px;
+border:none;
+margin-right: 5px;
+background: #C0C0C0 ;
+border-radius: 10px 10px 10px 10px;
+width: 300px
+}
+input:hover { /* mouse over */
+text-decoration:none;
+box-shadow: 0px 0px 10px #000000;
+border:none;
+}
+#tarea{
+padding-left:10px;
+resize:none;
+width:300px;
+height:60px; 
+border:none;
+background: #C0C0C0 ;
+border-radius: 10px 10px 10px 10px;
+}
+#tarea:hover{
+border:none;
+text-decoration:none;
+box-shadow: 0px 0px 10px #000000;
+}
+/***********************************************************************
+*Tampilan untuk validasi form                                         **
+***********************************************************************/
+#signupform label.error {
+  background:url("../images/delete.png") no-repeat 0px 0px;
+  background-size:15px 15px;
+  padding-left: 15px;
+  font-weight: bold;
+  color: #EA5200;
+  margin-left:-25px;
+  background-position:left center;
+}
+#signupform label.checked {
+  background:url("../images/accept.png") no-repeat 0px 0px;
+  background-size:92% 92%;
+  margin-left:-25px;
+  background-position:left center;
+}
+/***********************************************************************
+*Tampilan untuk tooltip                                               **
+***********************************************************************/
+.tooltip {
+	margin-left:2px;
+    background-color:#000;
+    border:1px solid #fff;
+    padding:10px 7px;
+    width:250px;
+    display:none;
+    color:#fff;
+    text-align:left;
+    font-size:12px;
+    /* outline radius for mozilla/firefox only */
+    -moz-box-shadow:0px 0px 20px #000;
+    -webkit-box-shadow:0px 0px 20px #000;
+}
+/***********************************************************************
+*Tampilan untuk Label form isian                                      **
+***********************************************************************/
+#cat {
+font-family: ravie;
+text-align:center;
+background:black;
+color:white;
+font-size:15px;
+font-weight:bold;
+}
