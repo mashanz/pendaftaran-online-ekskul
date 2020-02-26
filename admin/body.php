@@ -11,24 +11,24 @@
 	<div>
 		<?php
 			$query="SELECT * FROM menu WHERE status='0'";
-			$result=mysql_query($query);
-			while($row=mysql_fetch_array($result))
+			$result=mysqli_query($koneksi, $query);
+			while($row=mysqli_fetch_array($result))
 			{
 				echo"<a href='$row[link]'><div id='menubar'> &#187; $row[judul] </div></a>";
 			}
 			$query="SELECT * FROM menu WHERE status='1'";
-			$result=mysql_query($query);
-			while($row=mysql_fetch_array($result))
+			$result=mysqli_query($koneksi, $query);
+			while($row=mysqli_fetch_array($result))
 			{
 				echo"<a href='$row[link]'><div id='menubar'> &#187; $row[judul] </div></a>";
 			}
 				$query="SELECT * FROM menu WHERE status='2'";
-			$result=mysql_query($query);
-			while($row=mysql_fetch_array($result))
+			$result=mysqli_query($koneksi, $query);
+			while($row=mysqli_fetch_array($result))
 			{
 				echo"<a href='$row[link]'><div id='menubar'> &#187; $row[judul] </div></a>";
 			}
-		mysql_close($koneksi);
+		mysqli_close($koneksi);
 		?>
 	</div>
 </td>

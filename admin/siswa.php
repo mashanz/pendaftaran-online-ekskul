@@ -5,7 +5,7 @@
 if($_SESSION['level']=="admin"){
 include("../lib/config.php");
 $query="SELECT * FROM anggota ORDER BY username";
-$result=mysql_query($query);
+$result=mysqli_query($koneksi, $query);
 echo "
 	<table id='form-user' border='1'>
 	<div id='h1'><center><h1>Daftar Anggota SCC</h1></center></div>
@@ -20,7 +20,7 @@ echo "
 	</tr>";
 
 $i=1;
-	while($row=mysql_fetch_array($result))
+	while($row=mysqli_fetch_array($result))
 {
 	echo"
 	<tr bgcolor='white' align='center' height='35'>
@@ -38,7 +38,7 @@ echo $row['namane'];
 	";
 $i++;
 }
-mysql_close($koneksi);
+mysqli_close($koneksi);
 
 
 echo"</table>";
