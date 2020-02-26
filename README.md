@@ -1,3 +1,5 @@
+[Latest Release Download Link](https://github.com/mashanz/pendaftaran-online-ekskul/releases)
+
 # Pendaftaran Online Ekskul
 Project Pendaftaran Online Ekskul Sambadha Computer Club 2011 Berbasis Apache Server, MySQLite, PHP, HTML, CSS, js, jQuery. Aplikasi ini digunakan untuk merekrut calon anggota baru di eksul Komputer Club.
 
