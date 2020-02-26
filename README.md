@@ -18,13 +18,13 @@ Locasi database: ./scc_database.sql
 2. [XAMPP](https://www.apachefriends.org/index.html) sebagai Server
 
 ## Fiture
-1. Admin
-  a. Login Admin
-  b. Memanage admin (CRUD)
-  c. Melihat daftar calon anggota
-  d. Logout
-2. User
-  a. Login user
-  b. Daftar User
-  c. Profile User
-  d. Logout
+- Admin
+    - Login Admin
+    - Memanage admin (CRUD)
+    - Melihat daftar calon anggota
+    - Logout
+- User
+    - Login user
+    - Daftar User
+    - Profile User
+    - Logout
