@@ -17,6 +17,6 @@ $alasan=$_POST['alasan'];
 
 $query="INSERT INTO anggota (level, username, password, namane, kelamin, tlahir, tgllahir, alamat, telp, mail, fb, twitter, hobi, alasan)
 	VALUE('$level', '$username', '$password', '$namane', '$kelamin', '$tlahir', '$tgllahir', '$alamat', '$telp', '$mail', '$fb', '$twitter', '$hobi', '$alasan')";
-$result=mysql_query($query);
+$result=mysqli_query($koneksi, $query);
 header("Location: index.php");
 ?>

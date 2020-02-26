@@ -14,7 +14,7 @@ $db_nya="scc";		//Data base yang dipilih dari server
 //di atur sebelumnya pada konfigurasi server. Usahakan jangan merubah     //
 //script-nya.                                                             //
 ////////////////////////////////////////////////////////////////////////////
-$koneksi=mysql_connect($server, $user, $password);
+$koneksi=mysqli_connect($server, $user, $password);
 if (! $koneksi)
 	die("Tidak dapat terkoneksi ke server!");
 print ("");
@@ -23,7 +23,7 @@ print ("");
 //Perintah untuk menyambung ke "data base" pada server yang sudah diatur  //
 //pada konfigurasi sebelumnya.                                            //
 ////////////////////////////////////////////////////////////////////////////
-$db_conf=mysql_select_db($db_nya, $koneksi);
+$db_conf=mysqli_select_db($koneksi, $db_nya);
 if (! $db_conf)
 	die(include "gagal_db.php");
 print ("");

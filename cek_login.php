@@ -23,13 +23,13 @@ $password=$_POST['password'];
 //memulai verifikasi dari data base yang tersedia                     //
 ////////////////////////////////////////////////////////////////////////
 $query="SELECT * FROM anggota WHERE username = '$username' AND password = '$password'";
-$result=mysql_query($query);
-if(mysql_num_rows($result) !=0){
+$result=mysqli_query($koneksi, $query);
+if(mysqli_num_rows($result) !=0){
 
 ////////////////////////////////////////////////////////////////////////
 //memberikan ijin jika data sesuai                                    //
 ////////////////////////////////////////////////////////////////////////
-	$row=mysql_fetch_array($result);
+	$row=mysqli_fetch_array($result);
 	$_SESSION['username']=$row['username'];
 	$_SESSION['namane']=$row['namane'];
 	$_SESSION['password']=$row['password'];

@@ -10,8 +10,8 @@ include("lib/config.php");
 $username=$_SESSION['username'];
 $password=$_SESSION['password'];
 $query="SELECT * FROM anggota WHERE username = '$username' AND password = '$password'";
-$result=mysql_query($query);
-$row=mysql_fetch_array($result);
+$result=mysqli_query($koneksi, $query);
+$row=mysqli_fetch_array($result);
 ?>
 </td>
 </tr>
